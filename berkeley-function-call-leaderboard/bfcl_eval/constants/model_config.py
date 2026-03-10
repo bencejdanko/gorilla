@@ -2191,6 +2191,17 @@ third_party_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+
+    "gorilla-openfunctions-v2": ModelConfig(
+        model_name="qwen-3.5-9b-awq",
+        display_name="Gorilla-OpenFunctions-v2 (FC)",
+        url="https://gorilla.cs.berkeley.edu/blogs/7_open_functions_v2.html",
+        org="Gorilla LLM",
+        license="Apache 2.0",
+        model_handler=OpenAICompletionsHandler,
+        is_fc_model=True,
+        underscore_to_dot=False,
+    ),
 }
 
 
